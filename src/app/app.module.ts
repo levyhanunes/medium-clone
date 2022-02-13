@@ -13,7 +13,7 @@ import { StoreModule } from '@ngrx/store';
     BrowserModule,
     AppRoutingModule,
     AuthModule,
-    StoreModule.forRoot({}, {})
+    StoreModule.forRoot([])
   ],
   providers: [],
   bootstrap: [AppComponent]
